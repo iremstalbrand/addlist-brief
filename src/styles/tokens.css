@@ -1,0 +1,64 @@
+:root {
+  /* ============================================ */
+  /* LAYER 1: PRIMITIVES                          */
+  /* Raw values. Named by appearance.             */
+  /* ============================================ */
+
+  /* Colors */
+  --slate-900: #2C2C2C;
+  --slate-400: #757575;
+  --slate-200: #E3E3E3;
+  --slate-100: #F5F5F5;
+  --violet-500: #5B4FCF;
+  --white: #FFFFFF;
+  --black: #000000;
+  --beige-100: #F5DCD0;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+
+  /* Border radius */
+  --radius-sm: 2px;
+  --radius-md: 8px;
+
+  /* Font sizes */
+  --font-size-body-sm: 14px;
+  --font-size-body-md: 16px;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* ============================================ */
+  /* LAYER 2: SEMANTICS                           */
+  /* Purpose-named. Reference primitives only.    */
+  /* ============================================ */
+
+  /* Action colors (used by buttons) */
+  --color-action-primary: var(--slate-900);
+  --color-action-neutral: var(--slate-200);
+  --color-action-subtle: transparent;
+
+  /* Text colors */
+  --color-text-primary: var(--black);
+  --color-text-secondary: var(--slate-400);
+  --color-text-on-brand: var(--white);
+  --color-text-on-primary: var(--white);
+
+  /* Surface colors (backgrounds) */
+  --color-surface-card: var(--white);
+  --color-surface-page: var(--beige-100);
+
+  /* Accent colors (brand) */
+  --color-accent: var(--violet-500);
+  --color-checkbox-checked: var(--violet-500);
+  --color-focus-ring: var(--violet-500);
+
+  /* Border colors */
+  --color-border-default: var(--slate-200);
+  --color-border-focus: var(--violet-500);
+}
